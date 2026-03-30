@@ -5,10 +5,14 @@ REG_NO="24BEC10073"
 SOFTWARE_CHOICE="Git"
 
 KERNEL=$(uname -r)
-DISTRO=$(grep PRETTY_NAME /etc/os-release | cut -d= -f2 | tr -d '"')
+if [ -f /etc/os-release ]; then
+DISTRO=$(grep PRETTY_NAME /etc/os-release | cut -d '"' -f2)
+else
+DISTRO="Unknown (non-Linux system)"
+fi
 USER_NAME=$(whoami)
 HOME_DIR=$HOME
-UPTIME=$(uptime -p)
+UPTIME=$(uptime 2>/dev/null || echo "Unavailable")
 CURRENT_DATE=$(date '+%A, %d %B %Y %H:%M:%S')
 
 OS_LICENSE="GNU General Public License v2 or later"
