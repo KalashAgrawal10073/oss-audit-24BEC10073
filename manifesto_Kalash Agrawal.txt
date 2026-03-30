@@ -1,0 +1,21 @@
+============================================================
+  MY OPEN SOURCE MANIFESTO
+  Generated on: 31 March 2026
+  Author: Kalash Agrawal
+============================================================
+
+  Every day, I rely on Linux — a tool that exists because
+  someone chose to build it openly and share it with the world.
+  To me, 'freedom' means Independance.
+
+  Open source allows collaboration, learning, and innovation.
+  The tools we use today exist because people chose to share
+  their work freely instead of keeping it private.
+
+  One day, I want to build Food
+  and share it with the world so others can use,
+  learn from it, and improve it.
+
+  This is my commitment to open source.
+
+============================================================
