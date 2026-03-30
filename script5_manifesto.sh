@@ -24,7 +24,7 @@ echo ""
 [ -z "$BUILD" ] && BUILD="a useful open-source project"
 
 DATE=$(date '+%d %B %Y')
-OUTPUT="manifesto_$(whoami).txt"
+OUTPUT="manifesto_$(whoami | tr ' ' '_').txt"
 
 echo "------------------------------------------------------------"
 echo "  Generating your manifesto..."
