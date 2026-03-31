@@ -1,3 +1,6 @@
+![Bash](https://img.shields.io/badge/Shell-Bash-green)
+![License](https://img.shields.io/badge/License-GPLv2-blue)
+
 # OSS Audit — Git
 
 ### Open Source Software | VIT | Capstone Project
